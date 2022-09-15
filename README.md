@@ -1,2 +1,1 @@
-# auto-eng-101
-py code for practice
+# Python challenges for coding and math practice
