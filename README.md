@@ -1,1 +1,3 @@
-# Python challenges for coding and math practice
+## Python code challenges
+
+### Coding practice of different methods and approaches
