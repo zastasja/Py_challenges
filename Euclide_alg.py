@@ -22,3 +22,15 @@ while b > 0:
 
 print(a)
   
+
+  # Даны два натуральных числа A и B. Требуется найти их наименьшее общее кратное (НОК). НОК = (a * b) / НОД
+  
+a, b = map(int, input().split())
+
+d = a * b
+while b > 0:
+    c = a % b
+    a = b
+    b = c
+
+print(int(d/a))
