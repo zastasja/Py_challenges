@@ -6,11 +6,11 @@ i = 1
 d = []
 
 while i**2 <= n:
-  if n%i == 0:
-    d.append(i)
-    if i != n:
-      d.append(n//i)
-  i+=1
+    if n%i == 0:
+        d.append(i)
+        if i != n:
+            d.append(n//i)
+    i+=1
 d.sort()
 
 print(reduce(lambda x,y: x+y, d))
