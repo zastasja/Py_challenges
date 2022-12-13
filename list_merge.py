@@ -1,6 +1,6 @@
 
 # слияние отсортированных списков
-n, m = int('Введите количество чисел', input()), int('Введите количество чисел', input())
+n, m = map(int,'Введите количество чисел через пробел', input().split()))
 list1 = list(map(int,'Введите отсортированные числа по возрастанию через пробел', input().split()))
 list2 = list(map(int,'Введите отсортированные числа по возрастанию через пробел', input().split()))
 i, j = 0, 0
@@ -13,10 +13,8 @@ while i < n and j < m:
         res.append(list2[j])
         j += 1
 while i < n:
-    res.append(list1[i])
-    i += 1
+    res = res + list1[i:]
 while j < m:
-    res.append(list2[j])
-    j += 1
+    res = res + list2[j:]
 
 print(*res)
