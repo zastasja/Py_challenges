@@ -12,9 +12,9 @@ while i < n and j < m:
     else:
         res.append(list2[j])
         j += 1
-while i < n:
+if i < n:
     res = res + list1[i:]
-while j < m:
+if j < m:
     res = res + list2[j:]
 
 print(*res)
