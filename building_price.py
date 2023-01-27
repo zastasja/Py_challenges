@@ -6,8 +6,6 @@
 # Вам даны целые положительные числа floors, increase, main_price.
 
 floors, increase, main_price = int(input()),int(input()),int(input())
-ind = floors//increase
-rest = floors%increase
 extra_pay = 1000
 res = 0
 
