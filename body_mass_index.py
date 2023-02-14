@@ -8,5 +8,16 @@ def bmi(weight, height):
     return weight / height ** 2
 
 
-print(bmi(52.5, 1.65))
+# functions to convert pounds to kg:
+def lb_to_kg(lb):
+    return lb * 0.45359237
+
+
+# functions to convert ft and inches into meters:
+def ft_and_inch_to_m(ft, inch):
+    return ft * 0.3048 + inch * 0.0254
+
+
+print(bmi(weight = lb_to_kg(176), height = ft_and_inch_to_m(5, 7)))
+
 
