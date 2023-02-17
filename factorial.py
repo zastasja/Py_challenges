@@ -29,7 +29,7 @@ def factorial_small_num():
     num = int(input())
     fac = math.factorial(num)
     print(fac)
-factorial_num()
+factorial_small_num()
 
 #Example 3
 def factorial_function(n):
